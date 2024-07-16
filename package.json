@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@spotify/web-api-ts-sdk": "^1.2.0",
+    "lucide-react": "^0.408.0",
+    "next": "14.1.3",
+    "prettier-plugin-tailwindcss": "^0.6.5",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.3"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "typescript": "^5",
