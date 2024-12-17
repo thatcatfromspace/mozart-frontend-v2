@@ -71,13 +71,11 @@ export default function Home() {
           <span className={`me-10 cursor-pointer hover:underline`}>
             How it works
           </span>
-          <Link href={"/auth"}>
             <button
-              className={`rounded-full bg-gunmetal-200 px-5 py-1 text-aliceblue-700 transition-colors hover:bg-gunmetal-200/70`}
+              className={`rounded-full bg-gunmetal-200 px-4 py-1 text-aliceblue-700 transition-colors hover:bg-gunmetal-200/70`}
             >
-              Login
+              Coming soon
             </button>
-          </Link>
         </div>
       </nav>
       <main className="mt-5 flex items-center justify-center md:mt-36 lg:gap-x-32">
@@ -95,12 +93,10 @@ export default function Home() {
           </span>
           <span className="group mt-3 flex items-center font-medium">
             Let the world know about it.&nbsp;
-            <Link href={"/auth"}>
-              <span className="transition-transform hover:underline">
-                Try Mozart
-              </span>
-            </Link>
-            <ArrowUpRight className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+              {/*<span className="transition-transform hover:underline">*/}
+              {/*  Coming soon!*/}
+              {/*</span>*/}
+            {/*<ArrowUpRight className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />*/}
           </span>
         </div>
         <div>

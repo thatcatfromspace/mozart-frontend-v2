@@ -1,5 +1,3 @@
-import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import { DM_Sans } from "next/font/google";
 
