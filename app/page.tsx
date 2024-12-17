@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import {
   Playfair_Display,
   Dynalight,
@@ -10,32 +9,32 @@ import {
 } from "next/font/google";
 import { ArrowUpRight } from "lucide-react";
 
-export const playfair = Playfair_Display({
+const playfair = Playfair_Display({
   subsets: ["latin"],
   weight: ["500"],
 });
 
-export const dynalight = Dynalight({
+const dynalight = Dynalight({
   subsets: ["latin"],
   weight: "400",
 });
 
-export const zeyada = Zeyada({
+const zeyada = Zeyada({
   subsets: ["latin"],
   weight: ["400"],
 });
 
-export const satisfy = Satisfy({
+const satisfy = Satisfy({
   subsets: ["latin"],
   weight: ["400"],
 });
 
-export const sans = DM_Sans({
+const sans = DM_Sans({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
 });
 
-export const comforterBrush = Comforter_Brush({
+const comforterBrush = Comforter_Brush({
   subsets: ["latin"],
   weight: "400",
 });
