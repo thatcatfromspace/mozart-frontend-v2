@@ -66,7 +66,7 @@ export default function Home() {
     >
       <nav className="flex justify-between lg:px-10">
         <div className={`${playfair.className} text-3xl`}>MOZART.</div>
-        <div className="flex">
+        <div className="flex items-center">
           <span className={`me-10 cursor-pointer hover:underline hidden sm:flex`}>
             How it works
           </span>
