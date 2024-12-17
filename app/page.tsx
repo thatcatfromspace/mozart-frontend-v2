@@ -66,8 +66,8 @@ export default function Home() {
     >
       <nav className="flex justify-between lg:px-10">
         <div className={`${playfair.className} text-3xl`}>MOZART.</div>
-        <div>
-          <span className={`me-10 cursor-pointer hover:underline`}>
+        <div className="flex">
+          <span className={`me-10 cursor-pointer hover:underline hidden sm:flex`}>
             How it works
           </span>
             <button
@@ -77,7 +77,7 @@ export default function Home() {
             </button>
         </div>
       </nav>
-      <main className="mt-5 flex items-center justify-center md:mt-36 lg:gap-x-32">
+      <main className="mt-5 flex flex-1 items-center justify-center min-h-full md:space-x-32">
         <div className="flex flex-col">
           <span className={`${playfair.className} text-5xl font-medium`}>
             Your taste is
@@ -104,6 +104,7 @@ export default function Home() {
             alt="mozart girl"
             height={350}
             width={350}
+            className="hidden sm:flex"
           />
         </div>
       </main>
